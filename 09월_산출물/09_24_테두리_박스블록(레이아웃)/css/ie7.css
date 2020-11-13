@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* IE 7 폴리필 스타일 설정 */
+
+/* skip메뉴  ul(#skip) 태그 요소에 글자크기 폴리필 */
+#wrap #skip {font-size:0;}
+
+
+/* ul 태그 요소의 높이 설정 폴리필  */
+/* 헤더영역 */
+#wrap #header .wrap > ul {height:100px;}
+/* 섹션영역 */
+#wrap #main #section2 > ul {height:200px;}
+/* 푸터영역 */
+#wrap #footer .wrap > ul {height:100px;}
+#wrap #footer .wrap > ul > li:nth-child(2) ul {height:100px;}
+/* 네비게이션 */
+#wrap #header .wrap > ul > li:nth-child(2) #nav > ul {height:45px;}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>04-13 이미지 img | inline</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="04-13 이미지 img | inline">
+    <meta name="publisher" content="Moon Seonjong">
+
+    <style>
+/*         
+        html {margin:0;} 
+        html body {margin:0;} 
+        html body h1 {margin:0;} 
+*/
+        /* 모든 태그 요소들의 밖여백 0으로 설정 불필요한 공간 삭제 */
+        * {margin:0;}
+        img {vertical-align:middle;}
+        /* 이미지의 수직정렬을 top 또는 middle 또는 bottom  */
+        /* 위아래 여백이 없어진다. */
+        /* 이미지는 수직정렬(vertical-align)이 기본으로 가운데정렬(middle)로 되어있다. */
+        /* 이미지 수직정렬 기본값 초기 수정 top(윗정렬) */
+        /*
+        img {vertical-align:top;}       
+        img {vertical-align:middle;}
+        img {vertical-align:bottom;} 
+        */        
+
+    </style>
+
+</head>
+<body>
+    
+    <!-- <h1>04-13 이미지 img</h1> -->
+    
+    <div>
+        <img src="./img/slider-img1.jpg" width="70%" height="auto" alt="도자기 굽는 장인">
+        도자기 굽는 장인    
+    </div>
+
+    <div style="height: 500px;">
+        <img src="./img/slider-img1.jpg" width="auto" height="100%" alt="도자기 굽는 장인">
+        도자기 굽는 장인     
+    </div>
+
+</body>
+</html>

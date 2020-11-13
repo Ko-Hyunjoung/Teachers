@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 스킵메뉴 */
+#skip {z-index:2;position:absolute;top:0;left:0;width:100%;font-size:0;}
+#skip li {width:100%;}
+#skip li a {display:block;line-height:0;font-size:0;background:#000;color:#fff;text-align:center;}
+#skip li a:focus {line-height:50px;font-size:20px;}
+
+
+#wrap {z-index:1;position:relative;}
+/* 헤더영역 */
+#wrap #header {z-index:3;position:fixed;top:0;left:0;width:100%;height:120px;border-top:2px solid #000;border-bottom:1px solid #e5e5e5;background:#f6f5ef;}
+
+
+/* 메인영역 */
+#wrap #main   {z-index:2;position:relative;}
+
+/* 섹션1영역 */
+#wrap #main  #section1 {width:100%;height:646px;background:url(../img/2020_autumn1_bg.jpg) no-repeat 50% 0; background-size:100% 100%;}
+
+/* 섹션2영역 */
+#wrap #main  #section2 {}
+
+/* 섹션3영역 */
+#wrap #main  #section3 {}
+
+/* 섹션4영역 */
+#wrap #main  #section4 {}
+
+/* 섹션5영역 */
+#wrap #main  #section5 {}
+
+/* 섹션6영역 */
+#wrap #main  #section6 {}
+
+/* 섹션7영역 */
+#wrap #main  #section7 {}
+
+/* 섹션8영역 */
+#wrap #main  #section8 {}
+
+/* 섹션9영역 */
+#wrap #main  #section9 {}
+
+
+/* 푸터영역 */
+#wrap #footer {z-index:1;position:relative;width:100%;height:488px;padding:32px 0 35px 0;background:#2c2a29;}
+
+

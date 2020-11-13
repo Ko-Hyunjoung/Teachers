@@ -1,0 +1,84 @@
+position: relative; top left 블록단위
+position: absolute; top 또는 bottom left 또는 right  인라인 
+position: fixed;    top 또는 bottom left 또는 right   인라인
+z-index 깊이 앞 뒤 1 2 3 4 5 .. 숫자가 클수록 앞
+
+
+순서없는 목록 상자(Unorder List box)-블록요소
+
+ul, li {list-style:circle;}
+ul, li {list-style:square;}
+ul, li {list-style:disc;}
+ul, li {list-style:none;}
+
+
+
+앵커(Anchor)-인라인요소
+
+a {color:#444;text-decoration:underline;}
+a {color:#444;text-decoration:overline;}
+a {color:#444;text-decoration:none;}
+
+
+
+
+태그로 작성된 모든 요소들 모음 작업  Modelling
+M V C  패턴(모델링)
+Model(HTML5) > View(CSS3) > Controler(자바스크립트(DOM/BOM)&제이쿼리)
+
+<!-- 브라우저 : 쿼크모드 표준모드 -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=11"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=10"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=9"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=8"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=7"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE11"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE8"> -->
+<!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"> -->
+
+
+    크로스브라우징
+    IE에서만 실행 
+
+   조건부 주석문(Conditional Comments)
+    
+    <!--[]>
+
+    <![]-->
+
+
+  <!-- 조건 주석문 익스프롤러 하위 IE9 IE8 IE7 폴리필 -->
+    <!-- 스크립트 스타일 -->
+    <!--[if lte IE 9]>
+        <script> 
+          
+        </script>
+    <![endif]-->
+    
+    <!--[if lte IE 8]>
+        <script>
+           //HTML5 시멘틱 태그 요소(Element)들 지원 안한다
+           //그래서 시멘틱 태그를 자바스크립트로 만들어서 사용한다.
+           document.createElement("header");
+           document.createElement("main");
+           document.createElement("footer"); 
+           document.createElement("section");
+           document.createElement("nav");
+           document.createElement("aside");
+           
+           //오픈소스 링크
+           
+
+        </script>    
+    <![endif]-->
+    
+    <!--[if lte IE 7]>    
+        <script>
+           
+        </script>  
+    <![endif]-->    
+
+
+

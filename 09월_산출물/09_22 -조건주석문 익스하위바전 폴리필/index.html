@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>웹표준 웹접근성 크로스브라우징 특수크로스브라우징</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    
+    <!-- 오픈소스 -->   
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+
+
+    <!-- 조건 주석문 익스프롤러 하위 IE9 IE8 IE7 폴리필 -->
+    <!-- 스크립트 스타일 -->
+    <!--[if lte IE 9]>
+        <script> 
+          
+        </script>
+    <![endif]-->
+    
+    <!--[if lte IE 8]>
+        <script>
+           //HTML5 시멘틱 태그 요소(Element)들 지원 안한다
+           //그래서 시멘틱 태그를 자바스크립트로 만들어서 사용한다.
+           document.createElement("header");
+           document.createElement("main");
+           document.createElement("footer"); 
+           document.createElement("section");
+        </script>    
+    <![endif]-->
+    
+    <!--[if lte IE 7]>    
+        <script>
+           
+        </script>  
+    <![endif]-->    
+
+</head>
+<body>
+<div id="wrap">
+    <header id="header">
+
+    </header>
+    <main id="main">
+        <section id="section1">
+
+        </section>
+        <section id="section2">
+
+        </section>
+    </main>
+    <footer id="footer">
+
+    </footer>
+</div>
+</body>
+</html>

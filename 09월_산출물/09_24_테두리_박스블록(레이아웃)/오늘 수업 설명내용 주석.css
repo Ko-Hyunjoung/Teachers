@@ -1,0 +1,27 @@
+배경컬러 이미지 지정 방법
+
+background:컬러(color) 배경이미지(image) 반복(repeat) pos-x pos-y fixed/scroll;
+
+선택자(Selector)
+
+li:nth-child(1)
+li:nth-child(2)
+li:nth-child(3)
+li:nth-child(4)
+li:nth-child(5)
+li:nth-child(6)
+li:nth-child(n)
+
+li:nth-child(even) 짝수 선택자
+li:nth-child(odd) 홀수 선택자
+
+
+#wrap #header .wrap > ul > li:nth-child(1) {}  /* 첫번째 선택요소 */
+#wrap #header .wrap > ul > li:first-child {}  /* 처음 선택요소 */
+
+#wrap #header .wrap > ul > li:nth-child(2) {} /* 두번째 선택요소 */
+#wrap #header .wrap > ul > li:last-child {} /* 마지막 선택요소 */
+
+
+
+

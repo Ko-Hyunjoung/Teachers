@@ -1,0 +1,17 @@
+
+배경색상이미지 오션///////////////////////
+
+background:컬러(#fff) 이미지(url(../img/이미지)) 반복(repeat, no-repeat repeat-x repeat-y) 포지션(x y) 스크롤/고정(attachment scroll fixed)
+
+/* 한줄로 코딩 약식코딩 */
+background:#fff url(../img/2020_autumn1_bg.jpg) no-repeat 50% 0 scroll;
+background:url(../img/2020_autumn1_bg.jpg) no-repeat 50% 0;
+background-size:100% 100%;
+
+/* 속성별로 코딩 */
+background-color:#fff;
+background-image:url(../img/2020_autumn1_bg.jpg);
+background-repeat:no-repeat;
+background-position:50% 0;
+background-attachment:scroll;
+background-size:100% 100%;}

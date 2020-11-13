@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04-17-1 이미지 맵 map shape='rect'</title>
+
+    <style>
+        img {width:744px;}
+        area:active {outline:1px solid #f00; }
+        /* area {outline:0; } */
+        /* area {outline:1px dotted #f00; }
+        area {outline:1px dashed #f00; } */
+    </style>
+
+
+</head>
+<body>
+<!-- 
+    미만 <   &lt;  엔티티 코드 문자
+    초과 >   &gt;  엔티티 코드 문자
+ -->
+    <h1>04-17-1 이미지 맵 &lt;map shape='rect'&gt;&lt;/map&gt;</h1>
+    <div>
+        <img src="./img/restaurant-img4.jpg" alt="" usemap="#rectmap">
+        <map name="rectmap">
+                        <!-- x1좌표,y1좌표,x2좌표,y2좌표 -->
+            <area shape="rect" coords="17,181,337,603" href="http://www.naver.com">    
+                        <!-- x1좌표,y1좌표,x2좌표,y2좌표 -->
+            <area shape="rect" coords="337,79,727,531" href="http://www.tjoeun.co.kr" target="_blank">    
+                        <!-- 원의 중심 x좌표, 원의 중심 y좌표, 반지름 -->
+            <area shape="circle" coords="536,50,40" href="http://www.tjoeun.co.kr" target="_blank">    
+                        <!-- 원의 중심 x좌표, 원의 중심 y좌표, 반지름 -->
+            <area shape="circle" coords="615,65,50" href="http://www.tjoeun.co.kr" target="_blank">    
+            <area shape="poly" coords="270,600,370,600,370,530,400,535,450,545,500,580,520,630,475,670,380,682,310,660,280,640,260,600" href="http://www.tjoeun.co.kr" target="_blank">    
+
+        </map>
+    </div>
+
+
+    <h1>04-17-1 이미지 맵 &lt;map shape='rect'&gt;&lt;/map&gt;</h1>
+    <div>
+        <img src="./img/restaurant-img4.jpg" alt="" usemap="#rectmap2">
+        <map name="rectmap2">
+                        <!-- x1좌표,y1좌표,x2좌표,y2좌표 -->
+            <area shape="poly" coords="17,181,337,181,337,530,365,530,365,600,17,600" href="http://www.naver.com">
+                        <!-- x1좌표,y1좌표,x2좌표,y2좌표 -->
+            <area shape="poly" coords="337,79,727,79,727,530,337,530" href="http://www.tjoeun.co.kr" target="_blank">    
+                        <!-- 원의 중심 x좌표, 원의 중심 y좌표, 반지름 -->
+            <area shape="circle" coords="536,50,40" href="http://www.tjoeun.co.kr" target="_blank">    
+                        <!-- 원의 중심 x좌표, 원의 중심 y좌표, 반지름 -->
+            <area shape="circle" coords="615,65,50" href="http://www.tjoeun.co.kr" target="_blank">    
+            <area shape="poly" coords="270,600,370,600,370,530,400,535,450,545,500,580,520,630,475,670,380,682,310,660,280,640,260,600" href="http://www.tjoeun.co.kr" target="_blank">    
+
+        </map>
+    </div>
+
+
+
+</body>
+</html>

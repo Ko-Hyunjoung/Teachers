@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이미지 갤러리 | inline</title>
+
+    <style>
+        * {margin:0;padding:0;}  /*  모든 태그요소 전체 밖여백 0으로 설정 쓸데없는 공백 제거 */
+        /* img {vertical-align:top;width:100%;float:left;}  */
+        /* img {vertical-align:top;width:50%;float:left;}  */
+        /* img {vertical-align:top;width:33.333%;float:left;}  */
+        img {vertical-align:top;width:25%;float:left;} 
+        /* img {vertical-align:top;width:20%;float:left;}  */
+        /* img {vertical-align:top;width:12.5%;float:left;}  */
+        h1 {display:none;}  /* 태그안보이게 없앤다 태그 사용안함 hidden */
+    </style>
+
+
+</head>
+<body>
+    
+    <h1>이미지 갤러리 만들기</h1>
+    <div>
+       <!--  이미지가 줄단위로 여러개 나열했다.
+        그리고 이미지를 가로로 배치하면 이미지 좌우에 여백이 보인다.
+        여백을 없애기 위해서 float:left; 사용했다. -->
+        <img src="./img/work-1.jpg.webp" alt="이미지1">
+        <img src="./img/work-2.jpg.webp" alt="이미지2">
+        <img src="./img/work-3.jpg.webp" alt="이미지3">
+        <img src="./img/work-4.jpg.webp" alt="이미지4">
+        <img src="./img/work-5.jpg.webp" alt="이미지5">
+        <img src="./img/work-6.jpg.webp" alt="이미지6">
+        <img src="./img/work-7.jpg.webp" alt="이미지7">
+        <img src="./img/work-8.jpg.webp" alt="이미지8">
+    </div>
+</body>
+</html>

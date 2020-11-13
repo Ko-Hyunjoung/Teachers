@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+/* IE 7 폴리필 스타일 설정 */
+#wrap #header .wrap > ul {height:100px;}
+#wrap #main #section2 > ul {height:200px;}
+#wrap #footer .wrap > ul {height:100px;}
+#wrap #footer .wrap > ul > li:nth-child(2) ul {height:100px;}
+
+/* 네비게이션 박스 */
+#wrap #header .wrap > ul > li:nth-child(2) #nav > ul {height:45px;}

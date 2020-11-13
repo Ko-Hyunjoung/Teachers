@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+
+    <h1>Object(객체) 메서드</h1>
+    
+<script>
+    $(function(){
+        //1-1 Object(객체) 리터럴 선언방법 - 권장 방법
+        var cars = {
+            irum:"GENESIS",
+            year:2020,
+            weigth:3000,
+            price:6000
+        };
+            console.log("객체.이름 = " + cars.irum);
+            console.log("모든 객체.키:값 = " + cars);
+
+            //each()메서드
+            $.each(cars, function(a,b){ //key, value
+                console.log(a, b);
+            });
+
+    });        
+</script>
+
+
+</body>
+</html>

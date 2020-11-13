@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+
+</head>
+<body>
+
+    <h1>Object(객체) 리터럴방식과 콜백함수</h1>
+    
+<script>
+    $(function(){
+        // Object(객체) 리터럴 방식2 선언방법
+        var sunbjuk = {
+            irum:"moonjong",
+            kor:100,
+            mat:100,
+            eng:100,
+            edps:100,
+            avg:function(){
+                var x = (sunbjuk.kor+sunbjuk.mat+sunbjuk.eng+sunbjuk.edps)/4;
+                return console.log(sunbjuk.irum + " 평균점수 : " + x);
+            },
+            tot:function(){
+                var x = (sunbjuk.kor+sunbjuk.mat+sunbjuk.eng+sunbjuk.edps);
+                return console.log(sunbjuk.irum + " 전체총점수는 : " + x);
+            }
+        };
+        sunbjuk.avg();
+        sunbjuk.tot();
+
+
+    });        
+</script>
+
+
+</body>
+</html>

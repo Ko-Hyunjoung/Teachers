@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#wrapper {width:1200px;height:700px;margin:0 auto;}
+/* 헤더 */
+#wrapper #header {width:1200px;}
+#wrapper #header .header-left  {float:left;width:180px;height:100px;background:#99c;}
+#wrapper #header .header-right {float:left;width:1020px;height:100px;background:#9cc;}
+
+
+
+/* 메인 */
+#wrapper #main   {width:1200px;height:500px;opacity:0.5;}
+
+/* 섹션1 */
+#wrapper #main  #section1 {width:1200px;height:300px;background:#9c9;}
+
+/* 섹션2 */
+#wrapper #main  #section2 {width:1200px;height:200px;}
+#wrapper #main  #section2 .section2-left   {float:left;width:400px;height:200px;background:#9cc;}
+#wrapper #main  #section2 .section2-center {float:left;width:400px;height:200px;background:#99c;}
+#wrapper #main  #section2 .section2-right  {float:left;width:400px;height:200px;background:#c99;}
+
+
+/* 푸터 */
+#wrapper #footer {width:1200px;height:100px;}
+#wrapper #footer .footer-left  {float:left;width:180px;height:100px;background:#99c;}
+#wrapper #footer .footer-right {float:left;width:1020px;height:100px;background:#c9c;}
